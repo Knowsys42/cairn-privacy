@@ -72,4 +72,4 @@ revision.
 
 ## Contact
 
-Questions about this policy: `[contact email]`
+Questions about this policy: <hello@cairnflare.com>
