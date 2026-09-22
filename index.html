@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy — Cairn</title>
+<meta name="description" content="Cairn collects nothing. No account, no analytics, no advertising, no servers.">
+<style>
+  :root {
+    color-scheme: dark;
+    --base: #0E0F13;
+    --surface: #181B23;
+    --line: #2C3243;
+    --accent: #FF6B3D;
+    --glow: #FFA94D;
+    --deep: #D93E1F;
+    --wash: #3A1F1A;
+    --text: #F6F7FA;
+    --muted: #AEB5C6;
+    --dim: #79809A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--base);
+    color: var(--text);
+    /* 17px floor: this audience is 40-55 and presbyopia is the norm */
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+    padding: 0 20px env(safe-area-inset-bottom, 24px);
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 56px 0 80px; }
+  .mark { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; }
+  .stones { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .stones i { display: block; border-radius: 99px; background: #646D88; }
+  .stones i:nth-child(1) { width: 14px; height: 14px; background: linear-gradient(135deg, var(--accent), var(--glow)); }
+  .stones i:nth-child(2) { width: 20px; height: 7px; }
+  .stones i:nth-child(3) { width: 26px; height: 7px; background: #525A72; }
+  .mark span { font-weight: 600; letter-spacing: -0.2px; }
+  h1 { font-size: clamp(2rem, 7vw, 2.6rem); line-height: 1.15; letter-spacing: -0.8px; margin: 0 0 6px; }
+  .updated { color: var(--dim); font-size: 0.85rem; margin: 0 0 32px; }
+  .lede {
+    background: var(--wash);
+    border: 1px solid var(--deep);
+    border-radius: 20px;
+    padding: 24px;
+    margin: 0 0 40px;
+    font-size: 1.06rem;
+  }
+  .lede p { margin: 0 0 14px; }
+  .lede p:last-child { margin: 0; color: var(--muted); }
+  h2 { font-size: 1.25rem; letter-spacing: -0.2px; margin: 36px 0 10px; }
+  p { color: var(--muted); margin: 0 0 14px; }
+  ul { color: var(--muted); padding-left: 1.2em; margin: 0 0 14px; }
+  li { margin-bottom: 8px; }
+  strong { color: var(--text); }
+  a { color: var(--glow); }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 2px 7px;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--dim);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">
+    <div class="stones" aria-hidden="true"><i></i><i></i><i></i></div>
+    <span>Cairn</span>
+  </div>
+
+  <h1>Privacy policy</h1>
+  <p class="updated">Cairn — perimenopause symptom tracker · Last updated 21 September 2026</p>
+
+  <div class="lede">
+    <p>Cairn collects nothing. It has no account, no analytics, no advertising, and no servers. Everything you log stays in the app’s own storage on your phone until you deliberately export it.</p>
+    <p>This is not a promise about how carefully we handle your data. It is a description of an app that never receives it.</p>
+  </div>
+
+  <h2>What Cairn stores, and where</h2>
+  <p>When you log a flare, Cairn writes the time, an optional intensity, and an optional note to a database inside the app’s private storage on your device. That is the whole of it.</p>
+  <p>That storage is private to Cairn under the operating system’s own app sandbox. No other app can read it, and neither can we.</p>
+
+  <h2>What Cairn sends</h2>
+  <p>Nothing. Cairn makes no network requests. It has no analytics SDK, no crash reporter, no advertising identifier, and no tracking of any kind. There is no server to send anything to, because we do not run one.</p>
+  <p>Two things leave the app, and only because you ask them to:</p>
+  <ul>
+    <li><strong>Export.</strong> Tapping <em>Export report</em> creates a CSV file and hands it to your phone’s own share sheet. Where it goes next — email, a notes app, a printer, your clinician — is your choice, and after that it is governed by whatever you sent it to, not by us. The file is written to Cairn’s temporary folder, which the operating system clears.</li>
+    <li><strong>Find a certified practitioner.</strong> This opens The Menopause Society’s directory in your browser. Cairn sends them nothing about you — not your symptoms, not your location, not the fact that you use Cairn. Once you are on their site you are subject to their privacy policy, not this one. We receive no fee for this link and do not rank anyone.</li>
+  </ul>
+
+  <h2>What we never do</h2>
+  <ul>
+    <li>We do not sell your data. There is no mechanism by which we could.</li>
+    <li>We do not share it with researchers, insurers, employers, or advertisers.</li>
+    <li>We do not require an account, an email address, or a phone number.</li>
+    <li>We do not use your data to train anything. Cairn contains no AI.</li>
+  </ul>
+
+  <h2>Your control</h2>
+  <ul>
+    <li><strong>See everything.</strong> Every entry is visible in History, back to your first.</li>
+    <li><strong>Delete anything.</strong> Remove individual entries at any time.</li>
+    <li><strong>Take it with you.</strong> Export the full record as CSV whenever you want.</li>
+    <li><strong>Delete everything.</strong> Uninstalling Cairn removes the database with it.</li>
+  </ul>
+  <p>Because your data lives only on your device, there is a real consequence worth stating plainly: if you lose the phone without an export, the record is gone. We cannot recover it for you, because we never had it.</p>
+
+  <h2>Children</h2>
+  <p>Cairn is intended for adults. It is not directed at children and we do not knowingly collect anything from anyone, of any age.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy ever changes, the new version will appear here and in the app, with the date above updated. If a future version of Cairn ever sends data anywhere, that will be stated plainly here before it ships — not buried in a revision.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <code>[contact email]</code></p>
+
+  <footer>
+    Cairn does not give medical advice. It counts what you tell it, and shows you the shape of it.
+  </footer>
+</main>
+</body>
+</html>
