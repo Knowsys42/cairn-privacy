@@ -1,4 +1,4 @@
-# Cairn — privacy policy
+# Cairn; privacy policy
 
 The published privacy policy for **Cairn**, a perimenopause symptom tracker.
 

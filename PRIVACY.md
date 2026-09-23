@@ -1,6 +1,6 @@
 # Privacy policy
 
-**Cairn — perimenopause symptom tracker**
+**Cairn: perimenopause symptom tracker**
 Last updated: 21 September 2026
 
 ## The short version
@@ -30,12 +30,12 @@ server to send anything to, because we do not run one.
 Two things leave the app, and only because you ask them to:
 
 - **Export.** Tapping *Export report* creates a CSV file and hands it to your
-  phone's own share sheet. Where it goes next — email, a notes app, a printer,
-  your clinician — is your choice, and after that it is governed by whatever
+  phone's own share sheet. Where it goes next (email, a notes app, a printer,
+  your clinician) is your choice, and after that it is governed by whatever
   you sent it to, not by us. The file is written to Cairn's temporary folder,
   which the operating system clears.
 - **Find a certified practitioner.** This opens The Menopause Society's
-  directory in your browser. Cairn sends them nothing about you — not your
+  directory in your browser. Cairn sends them nothing about you; not your
   symptoms, not your location, not the fact that you use Cairn. Once you are on
   their site you are subject to their privacy policy, not this one. We receive
   no fee for this link and do not rank anyone.
@@ -67,7 +67,7 @@ knowingly collect anything from anyone, of any age.
 
 If this policy ever changes, the new version will appear here and in the app,
 with the date above updated. If a future version of Cairn ever sends data
-anywhere, that will be stated plainly here before it ships — not buried in a
+anywhere, that will be stated plainly here before it ships; not buried in a
 revision.
 
 ## Contact
